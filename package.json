@@ -1,0 +1,28 @@
+{
+  "name": "@angablue/eslint",
+  "version": "1.0.0",
+  "description": "Eslint config for TypeScipt & JavaScript apps.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngaBlue/eslint.git"
+  },
+  "keywords": [
+    "eslint",
+    "typescript"
+  ],
+  "author": "AngaBlue",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/AngaBlue/eslint/issues"
+  },
+  "homepage": "https://github.com/AngaBlue/eslint#readme",
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.0.1",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0"
+  }
+}

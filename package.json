@@ -1,6 +1,6 @@
 {
   "name": "@angablue/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint config for TypeScipt & JavaScript apps.",
   "scripts": {
     "lint": "eslint . --ext js,jsx,ts,tsx --fix",

@@ -17,8 +17,6 @@ module.exports = {
         },
         ecmaVersion: 12,
         sourceType: 'module',
-        // tsconfigRootDir: __dirname,
-        project: './tsconfig.json',
     },
     plugins: [
         'react',
@@ -27,6 +25,7 @@ module.exports = {
     ],
     rules: {
         'no-console': 'off',
+        semi: ['error', 'always'],
         quotes: [
             'error',
             'single',
@@ -37,6 +36,7 @@ module.exports = {
         'import/extensions': 'off',
         'no-await-in-loop': 'off',
         'radix': 'off',
+        'consistent-return': 'off'
     },
     settings: {
         'import/resolver': [{

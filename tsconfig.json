@@ -10,5 +10,5 @@
         "strict": true,
         "esModuleInterop": true
     },
-    "include": [".eslintrc.js", "*.js", "src", "electron", "App.tsx"]
+    "include": ["index.js", "*.js", "src", "electron", "App.tsx"]
 }

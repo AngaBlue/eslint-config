@@ -36,7 +36,6 @@ module.exports = {
         'import/extensions': 'off',
         'no-await-in-loop': 'off',
         'radix': 'off',
-        'consistent-return': 'off'
     },
     settings: {
         'import/resolver': [{

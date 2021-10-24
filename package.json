@@ -1,7 +1,7 @@
 {
   "name": "@angablue/eslint-config",
   "version": "1.0.4",
-  "description": "Eslint config for TypeScipt & JavaScript apps.",
+  "description": "A comprehensive Eslint configuation package for JavaScript & TypeScript projects, with support for React.",
   "scripts": {
     "lint": "eslint . --ext js,jsx,ts,tsx --fix"
   },

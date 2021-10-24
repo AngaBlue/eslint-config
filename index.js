@@ -1,5 +1,4 @@
 module.exports = {
-    root: true,
     env: {
         browser: true,
         es2021: true,
@@ -7,10 +6,8 @@ module.exports = {
     },
     extends: [
         'airbnb-base',
-        'airbnb-typescript',
         'prettier'
     ],
-    parser: '@typescript-eslint/parser',
     parserOptions: {
         ecmaFeatures: {
             jsx: true
@@ -21,9 +18,18 @@ module.exports = {
     plugins: [
         'react',
         'prettier',
-        '@typescript-eslint'
     ],
     rules: {
+        'prettier/prettier': ['error', {
+            'printWidth': 160,
+            'tabWidth': 4,
+            'semi': true,
+            'singleQuote': true,
+            'trailingComma': 'none',
+            'arrowParens': 'avoid'
+        }, {
+                "usePrettierrc": false
+            }],
         'no-console': 'off',
         semi: ['error', 'always'],
         quotes: [
@@ -33,15 +39,24 @@ module.exports = {
         indent: ['error', 4, { 'SwitchCase': 1 }],
         'no-plusplus': 'off',
         'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx', '.tsx', '.ts'] }],
-        'import/extensions': 'off',
         'no-await-in-loop': 'off',
         'radix': 'off',
     },
-    settings: {
-        'import/resolver': [{
-            node: {
-                extensions: ['.js', '.jsx', '.ts', '.tsx']
-            }
-        }]
-    }
+    /* TypeScript Configuration */
+    overrides: [{
+        files: ['*.ts', '*.tsx'],
+        extends: ['airbnb-typescript'],
+        plugins: ['@typescript-eslint'],
+        parser: '@typescript-eslint/parser',
+        parserOptions: {
+            ecmaFeatures: {
+                jsx: true
+            },
+            project: 'tsconfig.json'
+        },
+        rules: {
+            '@typescript-eslint/indent': 'off',
+            '@typescript-eslint/comma-dangle': 'off'
+        }
+    }]
 }

@@ -1,6 +1,6 @@
 {
   "name": "@angablue/eslint-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A comprehensive Eslint configuation package for JavaScript & TypeScript projects, with support for React.",
   "scripts": {
     "lint": "eslint . --ext js,jsx,ts,tsx --fix"
@@ -13,7 +13,7 @@
     "eslint",
     "typescript"
   ],
-  "author": "AngaBlue",
+  "author": "AngaBlue <contact@anga.blue>",
   "license": "LGPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/AngaBlue/eslint-config/issues"

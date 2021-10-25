@@ -1,20 +1,22 @@
-<div align="center">
-    <h1>🧑🏻‍💻 AngaBlue Eslint Config</h1>
-    <p>
-    <a href="https://www.npmjs.com/package/@angablue/eslint-config">
-        <img alt="downloads" src="https://img.shields.io/npm/v/@angablue/eslint-config.svg?orange=blue" target="_blank" />
-    </a>
-    <a href="https://www.npmjs.com/package/@angablue/eslint-config">
-        <img alt="downloads" src="https://img.shields.io/npm/dm/@angablue/eslint-config.svg?color=blue" target="_blank" />
-    </a>
-    <a href="https://github.com/kefranabg/@angablue/eslint-config/blob/master/LICENSE">
-        <img alt="License" src="https://img.shields.io/npm/l/@angablue/eslint-config?color=green" target="_blank" />
-    </a>
-    </p>
-    <p>A comprehensive Eslint configuation package for JavaScript & TypeScript projects, with support for React.</p>
-    </div>
-    
-# Installation
+<h1 align="center">AngaBlue Eslint Config 🧑🏻‍💻</h1>
+<p align="center">
+  <a href="https://www.npmjs.com/package/@angablue/eslint-config" target="_blank">
+    <img alt="Downloads" src="https://img.shields.io/npm/dm/@angablue/eslint-config.svg?color=blue">
+  </a>
+  <a href="https://www.npmjs.com/package/@angablue/eslint-config" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/@angablue/eslint-config.svg">
+  </a>
+  <a href="https://github.com/AngaBlue/eslint/blob/master/LICENSE" target="_blank">
+    <img alt="License: LGPL--3.0--or--later" src="https://img.shields.io/npm/l/@angablue/eslint-config?color=green" />
+  </a>
+</p>
+
+A comprehensive Eslint configuation package for JavaScript & TypeScript projects, with support for React.
+
+### 🏠 [Homepage](https://github.com/AngaBlue/eslint-config#readme)
+
+## Install
+
 Install this package and it's peer dependencies with your package manager of choice.
 
 ```sh
@@ -27,11 +29,12 @@ or
 yarn add -D @angablue/eslint-config eslint prettier
 ```
 
-Then create the file `.eslintrc.js` in the root director of your project with the contents:
+## Usage
+Then create the file `.eslintrc.js` in the root directory of your project with the contents:
 
 ```js
 module.exports = {
-  extends: "@angablue",
+  extends: '@angablue',
 };
 ```
 
@@ -44,3 +47,22 @@ You may also want to add a script to your `package.json` in order to quickly lin
 ```
 
 Now you can, manually lint using the command `npm run lint` or `yarn lint`, while also receiving inline suggestions and warnings in your editor with the appropriate `eslint` extension installed.
+## Author
+
+👤 **AngaBlue <contact@anga.blue>**
+
+* Website: https://anga.blue
+* Github: [@AngaBlue](https://github.com/AngaBlue)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AngaBlue/eslint-config/issues). You can also take a look at the [contributing guide]( ).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2021 [AngaBlue <contact@anga.blue>](https://github.com/AngaBlue).<br />
+This project is [LGPL--3.0--or--later](https://github.com/AngaBlue/eslint/blob/master/LICENSE) licensed.

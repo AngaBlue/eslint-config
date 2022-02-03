@@ -29,7 +29,7 @@ module.exports = {
         ],
         'no-console': 'off',
         semi: ['error', 'always'],
-        quotes: ['error', 'single'],
+        quotes: 'off',
         indent: [
             'error',
             4,
@@ -49,6 +49,7 @@ module.exports = {
         'import/no-cycle': 'off',
         'import/no-mutable-exports': 'off',
         'no-underscore-dangle': 'off',
+        'import/no-webpack-loader-syntax': 'off',
         'no-bitwise': 'off'
     },
     overrides: [

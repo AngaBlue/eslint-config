@@ -53,7 +53,8 @@ module.exports = function (tabWidth = 4) {
             'import/no-webpack-loader-syntax': 'off',
             'no-bitwise': 'off',
             'import/no-extraneous-dependencies': 'off',
-            'default-case': 'off'
+            'default-case': 'off',
+            'no-param-reassign': 'off',
         },
         overrides: [
             /**
@@ -84,7 +85,8 @@ module.exports = function (tabWidth = 4) {
                 parser: '@typescript-eslint/parser',
                 rules: {
                     'jsx-quotes': ['error', 'prefer-single'],
-                    'class-methods-use-this': 'off'
+                    'class-methods-use-this': 'off',
+                    'no-param-reassign': ['error']
                 }
             }
         ]

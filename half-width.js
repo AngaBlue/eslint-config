@@ -1,3 +1,3 @@
 const rules = require("./rules");
 
-module.exports = rules();
+module.exports = rules(2);

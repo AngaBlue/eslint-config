@@ -1,6 +1,6 @@
 {
   "name": "@angablue/eslint-config",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "A comprehensive Eslint configuation package for JavaScript & TypeScript projects, with support for React.",
   "main": "index.js",
   "exports": {

@@ -55,6 +55,7 @@ module.exports = function (tabWidth = 4) {
             'import/no-extraneous-dependencies': 'off',
             'default-case': 'off',
             'no-param-reassign': 'off',
+            'consistent-return': 'off'
         },
         overrides: [
             /**

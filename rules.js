@@ -56,6 +56,7 @@ module.exports = function (tabWidth = 4) {
             'default-case': 'off',
             'no-param-reassign': 'off',
             'consistent-return': 'off',
+            'no-continue': 'off',
             'no-restricted-syntax': [
                 'error',
                 {

@@ -57,6 +57,7 @@ module.exports = function (tabWidth = 4) {
             'no-param-reassign': 'off',
             'consistent-return': 'off',
             'no-continue': 'off',
+            'import/extensions': 'off',
             'no-restricted-syntax': [
                 'error',
                 {

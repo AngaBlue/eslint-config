@@ -21,7 +21,7 @@ module.exports = function (tabWidth = 4) {
                     singleQuote: true,
                     trailingComma: 'none',
                     arrowParens: 'avoid',
-                    endOfLine: 'lf',
+                    endOfLine: 'auto',
                     jsxSingleQuote: true
                 },
                 {
